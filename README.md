@@ -1,6 +1,8 @@
 # SAS Analysis of HIV Risk Among Adolescent Girls and Young Women in Eswatini
 
-This repository presents a SAS-based epidemiologic analysis examining early sexual debut, educational attainment, and HIV status among adolescent girls and young women aged 15–24 in Eswatini using SHIMS2 and SHIMS3 survey data.
+This project uses nationally representative Population-Based HIV Impact Assessment (PHIA) data from Eswatini to examine the relationship between educational attainment, early sexual debut, and HIV status among adolescent girls and young women (AGYW) aged 15–24 years.
+
+The analysis compares two survey rounds (2016 and 2021) and applies complex survey methods, including jackknife variance estimation and multivariable logistic regression, to identify factors associated with HIV risk.
 
 ## Purpose
 

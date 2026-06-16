@@ -45,7 +45,10 @@ docs/
 └── project_summary.md
 
 outputs/
-└── Tables and figures from the analysis
+├── table1_sample_characteristics.png
+├── age_at_sexual_debut_by_year.png
+├── adjusted_odds_ratios_hiv_model.png
+└── table5_adjusted_hiv_model.png
 ```
 
 ## Additional Documentation

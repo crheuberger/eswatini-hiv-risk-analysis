@@ -19,13 +19,9 @@ Using nationally representative Population-Based HIV Impact Assessment (PHIA) su
 
 ![Figure 1](outputs/figure1_age_at_sexual_debut_by_education.png)
 
-*Mean age at sexual debut differed significantly by educational attainment (p < 0.0001), but not by survey year.*
-
 ### Final Survey-Weighted HIV Model
 
 ![Adjusted HIV Model](outputs/table4_adjusted_hiv_model.png)
-
-*Adjusted odds ratios for HIV status among sexually active adolescent girls and young women in Eswatini.*
 
 ## Data
 

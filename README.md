@@ -45,10 +45,11 @@ docs/
 └── project_summary.md
 
 outputs/
-├── table1_sample_characteristics.png
-├── age_at_sexual_debut_by_year.png
-├── adjusted_odds_ratios_hiv_model.png
-└── table5_adjusted_hiv_model.png
+├── figure1_age_at_sexual_debut_by_education.png
+├── table1a_sample_characteristics.png
+├── table1b_sample_characteristics.png
+├── table3_adjusted_early_sexual_debut_model.png
+└── table4_adjusted_hiv_model.png
 ```
 
 ## Additional Documentation

@@ -15,11 +15,7 @@ Using nationally representative Population-Based HIV Impact Assessment (PHIA) su
 
 ## Featured Analysis
 
-### Figure 1. Mean Age at Sexual Debut by Educational Attainment and Survey Year
-
 ![Figure 1](outputs/figure1_age_at_sexual_debut_by_education.png)
-
-### Final Survey-Weighted HIV Model
 
 ![Adjusted HIV Model](outputs/table4_adjusted_hiv_model.png)
 

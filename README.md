@@ -2,36 +2,59 @@
 
 ## Overview
 
-This project uses nationally representative Population-Based HIV Impact Assessment (PHIA) data from Eswatini to examine the relationship between educational attainment, early sexual debut, and HIV status among adolescent girls and young women (AGYW) aged 15–24 years.
+This repository contains SAS code and analytic outputs from a survey-weighted epidemiologic analysis examining educational attainment, early sexual debut, and HIV status among adolescent girls and young women (AGYW) aged 15–24 years in Eswatini.
 
-The analysis compares two survey rounds (2016 and 2021) and applies complex survey methods, including jackknife variance estimation and multivariable logistic regression, to identify factors associated with HIV risk.
-
-## Purpose
-
-The purpose of this project is to demonstrate applied SAS programming, public health data management, survey-weighted analysis, logistic regression, and communication of epidemiologic findings.
+Using nationally representative Population-Based HIV Impact Assessment (PHIA) survey data collected in 2016 and 2021, this project applied complex survey methods, including jackknife variance estimation and multivariable logistic regression, to identify factors associated with HIV risk.
 
 ## Key Findings
 
-- HIV prevalence among AGYW declined from 21.0% in 2016 to 13.5% in 2021.
-- Early sexual debut declined from 13.4% in 2016 to 9.9% in 2021.
+- HIV prevalence among AGYW declined from **21.0% in 2016** to **13.5% in 2021**.
+- Early sexual debut declined from **13.4% in 2016** to **9.9% in 2021**.
 - Educational attainment remained strongly protective against both early sexual debut and HIV infection.
-- After adjustment for covariates, early sexual debut was not independently associated with HIV status.
+- After adjustment for demographic and socioeconomic factors, early sexual debut was not independently associated with HIV status.
+
+## Featured Analysis
+
+### Figure 1. Mean Age at Sexual Debut by Educational Attainment and Survey Year
+
+![Figure 1](outputs/figure1_age_at_sexual_debut_by_education.png)
+
+*Mean age at sexual debut differed significantly by educational attainment (p < 0.0001), but not by survey year.*
+
+### Final Survey-Weighted HIV Model
+
+![Adjusted HIV Model](outputs/table4_adjusted_hiv_model.png)
+
+*Adjusted odds ratios for HIV status among sexually active adolescent girls and young women in Eswatini.*
 
 ## Data
 
-This project used restricted SHIMS/PHIA data. Raw data are not included in this repository.
+This project used restricted SHIMS/PHIA data. Raw data are not included in this repository due to data use agreements.
 
 ## Skills Demonstrated
 
-- SAS programming
-- Data cleaning and harmonization
-- Variable recoding
-- Dataset construction
+### SAS Programming
+
+- Data management and cleaning
+- Dataset merging and harmonization
+- Variable recoding and derivation
+- Macro programming
+- Survey analysis procedures
+
+### Epidemiologic Methods
+
+- Cross-sectional study design
 - Complex survey analysis
-- Jackknife variance estimation
-- Logistic regression
-- Public health interpretation
-- Communication of technical findings through tables and figures
+- Survey weighting and jackknife variance estimation
+- Logistic regression modeling
+- Interaction assessment and effect modification
+
+### Public Health Analytics
+
+- HIV surveillance data analysis
+- Interpretation of epidemiologic findings
+- Translation of statistical results into public health recommendations
+- Communication of technical findings to technical and non-technical audiences
 
 ## Repository Structure
 
@@ -56,4 +79,11 @@ outputs/
 
 For additional details on the study background, methods, findings, and public health implications, see:
 
-`docs/project_summary.md`
+[`docs/project_summary.md`](docs/project_summary.md)
+
+## Author
+
+**Claire Heuberger, MPH**
+
+Executive Master of Public Health (Applied Epidemiology)  
+Rollins School of Public Health, Emory University
